@@ -13,31 +13,31 @@ Designed with scalability, optimized query handling, and strict separation of co
     <td width="50%" align="center">
       <b>🔐 Gateway Authentication</b>
       <br />
-      <img src="service/src/main/resources/statics/screenshots/login.png" alt="Login Screen" width="100%"/>
+      <img src="src/main/resources/statics/screenshots/login.png" alt="Login Screen" width="100%"/>
     </td>
     <td width="50%" align="center">
       <b>📊 Core Control Dashboard</b>
       <br />
-      <img src="service/src/main/resources/statics/screenshots/dashboard.png" alt="Dashboard Screen" width="100%"/>
+      <img src="src/main/resources/statics/screenshots/dashboard.png" alt="Dashboard Screen" width="100%"/>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <b>🛠️ Services Catalog</b>
       <br />
-      <img src="service/src/main/resources/statics/screenshots/service.png" alt="Services Screen" width="100%"/>
+      <img src="src/main/resources/statics/screenshots/service.png" alt="Services Screen" width="100%"/>
     </td>
     <td width="50%" align="center">
       <b>🏢 Provider Directories</b>
       <br />
-      <img src="service/src/main/resources/statics/screenshots/companies.png" alt="Companies Screen" width="100%"/>
+      <img src="src/main/resources/statics/screenshots/companies.png" alt="Companies Screen" width="100%"/>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
       <b>📦 Live Allocation & Job Tracking</b>
       <br />
-      <img src="service/src/main/resources/statics/screenshots/jobs.png" alt="Jobs Management Screen" width="70%"/>
+      <img src="src/main/resources/statics/screenshots/jobs.png" alt="Jobs Management Screen" width="70%"/>
     </td>
   </tr>
 </table>
