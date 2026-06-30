@@ -1,8 +1,34 @@
 # 🚀 Service Booking Application
 
-A full-stack **Service Booking System** built using **Spring Boot, MongoDB, and React**.
-This project connects customers with service providers, allowing users to browse companies, explore services, and book jobs seamlessly.
+### ⚙️ Java • Spring Boot • MongoDB • React • REST API • Microservices Style Architecture
 
+A **full-stack Service Booking System** built with a powerful modern tech stack including **Java, Spring Boot, MongoDB, and React.js**.
+
+This project is designed to simulate a real-world service marketplace where customers can seamlessly connect with service providers, explore available services, and book jobs in a structured and efficient way.
+
+---
+
+## 🔥 Key Highlights
+
+- 🧠 Built with **Spring Boot backend architecture**
+- 🗄️ Powered by **MongoDB NoSQL database**
+- 🌐 Interactive **React.js frontend UI**
+- 🔗 RESTful API integration between frontend & backend
+- 📊 Clean separation of Controller → Service → Repository layers
+- ⚡ Fast, scalable, and production-style project structure
+- 🧾 Real-time job booking and tracking system
+
+---
+
+## 🧑‍💻 Developer Stack Representation
+
+```text
+☕ Java            → Core Backend Language
+🍃 Spring Boot    → REST API & Business Logic
+🍃 MongoDB        → NoSQL Database
+⚛️ React          → Frontend UI
+🔗 REST API       → Communication Layer
+📦 Maven          → Dependency Management
 ---
 
 ## 📌 Project Overview
