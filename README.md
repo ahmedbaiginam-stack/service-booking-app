@@ -169,6 +169,8 @@ To scale this ecosystem toward a production-ready, cloud-native state, the follo
 🐳 Containerized Orchestration: Authoring optimized, multi-stage Docker configurations for streamlined deployment across distributed cloud networks.
 ---
 
+---
+
 ## 👨‍💻 Lead Developer
 Ahmedbaig Inamdar
 Creative Full-Stack Software Engineer | Bengaluru, Karnataka, India
