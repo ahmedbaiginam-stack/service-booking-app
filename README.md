@@ -121,48 +121,63 @@ service-booking-app/
 
 ```
 ---
-## ⚙️Local Development Setup
-Prerequisites
-Java Development Kit (JDK) 17 or higher
 
-Node.js v18+ & npm
+## ⚙️ Engineering Environment Setup
 
-Live Mongo Database Server (Instance running locally or cloud-hosted via Atlas)
+### Prerequisites
+Before initializing the platform, ensure your local environment is provisioned with the following core dependencies:
+* **Java Development Kit (JDK):** Version 17 or higher (LTS)
+* **Node.js:** v18+ alongside the `npm` package manager
+* **Database Engine:** MongoDB Server (Active local instance or cloud-hosted Atlas cluster)
 
-Step 1: Clone and Enter Node
-Bash
+### 📍 Step 1: Repository Acquisition & Workspace Entry
+Clone the repository architecture and navigate to the project root directory:
+```bash
 git clone [https://github.com/ahmedbaiginam-stack/service-booking-app.git](https://github.com/ahmedbaiginam-stack/service-booking-app.git)
 cd service-booking-app
-Step 2: Bootstrapper Engine (Backend)
-Bash
+```
+## 📍 Step 2: Backend Service Ignition (Spring Boot)
+Compile the source code, resolve Maven dependencies, and boot the RESTful API engine:
 cd service
 mvn clean install
 mvn spring-boot:run
-The API layer will bind securely to port http://localhost:8080.
 
-Step 3: Interface Mount (Frontend)
+🟢 System Status: The backend API gateway will initialize and bind securely to 
+```bash
+http://localhost:8080.
+```
+## 📍 Step 3: Client Interface Mount (React)
+Install the required Node modules and launch the single-page application:
 Bash
 cd ../client
 npm install
 npm start
-The Webpack development server will initialize the UI dashboard at http://localhost:3000.
-
-🔮 Engineering Roadmap
-🔐 JSON Web Tokens (JWT): Implement stateless authorization mechanics along with granular Role-Based Access Control (RBAC).
-
-💳 Transaction Gateways: Integration of modern payment processing layers for verified checkout pipelines.
-
-📧 Event-Driven Messaging: Setting up a message broker queue or SMTP layer for transactional email tracking notifications.
-
-🐳 Containerization Deployment: Creation of optimized multi-stage Dockerfiles for distributed containerized deployment setups.
-
-👨‍💻 Author
-Ahmedbaig Inamdar
-Creative Full-Stack Web Developer based in India
-Specializing in architecting cloud-native web applications, robust APIs, and enterprise e-commerce ecosystems using Java, Spring Boot, SQL/NoSQL systems, and React.
-
-📌 License
-This ecosystem is maintained strictly for academic, training, and professional technical portfolio demonstrations.
-
+🟢 System Status: The Webpack development server will spin up the interactive user dashboard at 
+```bash
+http://localhost:3000.
+```
 ---
+## 🔮 Future Architecture Roadmap
+To scale this ecosystem toward a production-ready, cloud-native state, the following technical epics are currently scheduled:
+
+🔐 Zero-Trust Security (JWT): Implementing state-free, token-based authorization mechanics coupled with granular Role-Based Access Control (RBAC).
+
+💳 Payment Processing Gateways: Integrating a robust commercial checkout pipeline to facilitate secure, end-to-end service transactions.
+
+📧 Event-Driven Messaging: Setting up a non-blocking message broker queue (or SMTP layer) to dispatch automated transactional notifications and live tracking alerts.
+
+🐳 Containerized Orchestration: Authoring optimized, multi-stage Docker configurations for streamlined deployment across distributed cloud networks.
+
+## 👨‍💻 Lead Developer
+Ahmedbaig Inamdar
+Creative Full-Stack Software Engineer | Bengaluru, Karnataka, India
+
+Specializing in architecting cloud-native web applications, building high-throughput REST APIs, and designing enterprise-grade ecosystems using Java, Spring Boot, SQL/NoSQL database management systems, and React.
+
+
+
+
+
+
+
 
