@@ -173,7 +173,7 @@ To scale this ecosystem toward a production-ready, cloud-native state, the follo
 
 ## 👨‍💻 Lead Developer
 Ahmedbaig Inamdar
----
+
 Creative Full-Stack Software Engineer | Bengaluru, Karnataka, India
 
 Specializing in architecting cloud-native web applications, building high-throughput REST APIs, and designing enterprise-grade ecosystems using Java, Spring Boot, SQL/NoSQL database management systems, and React.
