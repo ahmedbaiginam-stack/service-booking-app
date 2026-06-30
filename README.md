@@ -95,8 +95,6 @@ The backend exposes a highly predictable, standardized REST API layer structured
 * `PATCH  /api/confirm/{id}` — Administrative confirmation lock
 * `DELETE /api/job/{id}` — Safely de-allocate a cancelled reservation
 
----
-
 ## 📂 Structural Topography
 
 ```text
@@ -119,9 +117,9 @@ service-booking-app/
 │   └── package.json          # Node Module Configuration Manifest
 │
 └── README.md
+---
 
-
-⚙️ Local Development Setup
+## ⚙️Local Development Setup
 Prerequisites
 Java Development Kit (JDK) 17 or higher
 
@@ -163,3 +161,6 @@ Specializing in architecting cloud-native web applications, robust APIs, and ent
 
 📌 License
 This ecosystem is maintained strictly for academic, training, and professional technical portfolio demonstrations.
+
+---
+
