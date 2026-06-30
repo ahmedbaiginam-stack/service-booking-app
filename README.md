@@ -1,4 +1,4 @@
-# 🚀 Service Booking Marketplace Ecosystem
+# 🚀 Service Booking App
 
 An enterprise-grade, full-stack service booking platform engineered to connect clients with service providers seamlessly. This application utilizes a decoupled, microservices-style architecture, combining a robust **Spring Boot REST API** with a highly responsive, state-managed **React.js** frontend ecosystem. 
 
